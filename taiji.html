@@ -44,7 +44,7 @@
         width: 400px;
         height: 400px;
         /*border: 1px solid gray;*/
-        border-radius:50%;
+        border-radius: 50%;
         position: relative;
         /*子元素如果绝对定位，父元素需相对定位*/
         overflow: hidden;
@@ -52,12 +52,13 @@
         box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
     }
 
-@media (max-width: 500px){
-    #taiji {
-        width: 200px;
-        height: 200px;
+    @media (max-width: 500px) {
+        #taiji {
+            width: 200px;
+            height: 200px;
+        }
     }
-}
+
     /*后代选择器*/
     #taiji>div:first-child {
         /*border: 1px solid red;*/
@@ -89,14 +90,14 @@
 
     }
 
-      @media (max-width: 500px){
-    #taiji>div:nth-child(3) {
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-        
+    @media (max-width: 500px) {
+        #taiji>div:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            margin-left: -50px;
+
+        }
     }
-}
 
     #taiji>div:nth-child(4) {
         /*border:1px solid blue;*/
@@ -111,14 +112,14 @@
 
     }
 
-    @media (max-width: 500px){
-    #taiji>div:nth-child(4) {
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-        
+    @media (max-width: 500px) {
+        #taiji>div:nth-child(4) {
+            width: 100px;
+            height: 100px;
+            margin-left: -50px;
+
+        }
     }
-}
 
     #taiji>div:nth-child(5) {
         /*border:1px solid blue;*/
@@ -133,14 +134,14 @@
 
     }
 
-@media (max-width: 500px){
-    #taiji>div:nth-child(5) {
-        width: 25px;
-        height: 25px;
-        top: 37.5px;
-        margin-left: -12.5px;
+    @media (max-width: 500px) {
+        #taiji>div:nth-child(5) {
+            width: 25px;
+            height: 25px;
+            top: 37.5px;
+            margin-left: -12.5px;
+        }
     }
-}
 
     #taiji>div:nth-child(6) {
         /*border:1px solid blue;*/
@@ -154,14 +155,14 @@
         border-radius: 50%;
     }
 
-@media (max-width: 500px){
-    #taiji>div:nth-child(6) {
-        width: 25px;
-        height: 25px;
-        bottom: 37.5px;
-        margin-left: -12.5px;
+    @media (max-width: 500px) {
+        #taiji>div:nth-child(6) {
+            width: 25px;
+            height: 25px;
+            bottom: 37.5px;
+            margin-left: -12.5px;
+        }
     }
-}
 
     #taiji-description {
         margin-top: 1em;
